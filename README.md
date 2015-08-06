@@ -16,7 +16,7 @@
 * Lemonly HTML/CSS/JS Style Guides
 
 ###Changes:
-* reset-normalize.scss replaced with normalize.csss, which is based on the HTML5 Boilerplate v5.0.0 CSS normalize.
+* reset-normalize.scss replaced with normalize.scss, which is based on the HTML5 Boilerplate v5.0.0 CSS normalize.
 * Refine the variables used for base styles.
 * Refine build task so text replacement is no longer needed for cache-busting.
 * Local branch changes:
