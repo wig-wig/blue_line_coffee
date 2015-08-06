@@ -14,3 +14,7 @@
 * [Abessive Theme](https://github.com/joshbroton/abessive)
 * [Sassquatch](https://github.com/joshbroton/sassquatch)
 * Lemonly HTML/CSS/JS Style Guides
+
+### Credits
+* Built using Lemonly's boilerplate.
+* Lemonly's boilerplate built by Josh Broton.
