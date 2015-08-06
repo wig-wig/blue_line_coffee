@@ -8,17 +8,6 @@ grunt.initConfig({
             }
         }
     },
-    babel: {
-        dev: {
-            files: [{
-                expand: true,
-                cwd: 'dev/js/site',
-                src: ['**/*.es6'],
-                dest: 'dev/js/site',
-                ext: '.js'
-            }]
-        }
-    },
     watch: {
         livereload: {
             options: { livereload: true },
@@ -28,15 +17,11 @@ grunt.initConfig({
             files: 'dev/scss/*.scss',
             tasks: ['sass']
         },
-        babel: {
-            files: 'dev/js/site/*.es6',
-            tasks: ['babel:dev']
-        }
     },
     connect: {
         server: {
             options: {
-                port: 8888,
+                port: 8889,
                 hostname: '*',
                 livereload: true,
                 open: true,
@@ -45,7 +30,7 @@ grunt.initConfig({
         },
         buildTest: {
             options: {
-                port: 8888,
+                port: 8889,
                 hosthame: '*',
                 open: true,
                 base: 'build',
@@ -134,7 +119,6 @@ grunt.initConfig({
 
 grunt.registerTask('server', [
     'sass',
-    'babel',
     'connect:server',
     'watch'
 ]);
