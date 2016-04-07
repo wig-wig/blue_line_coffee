@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         files: {
-          "dev/css/styles.css": "dev/scss/styles.scss"
+          "dev/css/global.css": "dev/scss/global.scss"
         }
       }
     },
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
     cssmin: {
       combine: {
         files: {
-          'build/css/styles.css': 'dev/css/styles.css'
+          'build/css/global.css': 'dev/css/global.css'
         }
       }
     },
