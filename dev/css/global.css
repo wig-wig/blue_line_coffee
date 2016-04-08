@@ -1794,4 +1794,77 @@ button {
 .long-delay {
   animation-delay: 700ms !important; }
 
+.hero {
+  background-color: red; }
+
+.company_discription {
+  background-color: orange; }
+
+.brewing {
+  background-color: yellow;
+  margin: 5px; }
+
+.coffee {
+  margin-bottom: 10px; }
+
+.coffee__image {
+  float: left;
+  margin-right: 5px;
+  background-color: blue;
+  width: 25%;
+  height: 75px; }
+
+.coffee__name {
+  float: left;
+  margin-right: 10px; }
+
+.coffee__discript {
+  font-size: 12px; }
+
+.menu {
+  background-color: pink; }
+
+.community_board {
+  background-color: green; }
+
+.footer {
+  background-color: blue; }
+
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: block; }
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none; }
+
+body {
+  margin: 0; }
+
+header {
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  text-align: center; }
+
+.hero {
+  position: absolute;
+  height: 100%;
+  width: 200%;
+  left: -50%; }
+
+video {
+  position: absolute;
+  top: -99999px;
+  bottom: -99999px;
+  left: -99999px;
+  right: -99999px;
+  margin: auto;
+  min-height: 100%;
+  min-width: 50%; }
+
 /*# sourceMappingURL=global.css.map */

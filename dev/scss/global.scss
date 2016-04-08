@@ -2,8 +2,55 @@
 @import "variables";
 @import "grid";
 
+@import "hero";
+@import "company_discription";
+@import "whats_brewing";
+@import "menu";
+@import "community_board";
+@import "footer";
+
 @import "general";
 
 @import "header";
 @import "content";
-@import "footer";
+
+
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+body{
+    margin:0;
+}
+header {
+    position: relative;
+    overflow: hidden;
+    width:100vw;
+    height:100vh;
+    max-height:100vh;
+    text-align:center;
+}
+.hero {
+    position:absolute;
+    height:100%;
+    width:200%;
+    left:-50%;
+}
+video {
+    position:absolute;
+    top: -99999px;
+    bottom: -99999px;
+    left: -99999px;
+    right: -99999px;
+    margin: auto;
+    min-height:100%;
+    min-width:50%;
+}
