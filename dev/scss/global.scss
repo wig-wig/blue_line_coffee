@@ -2,7 +2,9 @@
 @import "variables";
 @import "grid";
 
+@import "nav_bar";
 @import "hero";
+@import "brand_name";
 @import "company_discription";
 @import "whats_brewing";
 @import "menu";
@@ -27,30 +29,10 @@ ul {
   list-style: none;
 }
 
-body{
-    margin:0;
-}
-header {
-    position: relative;
-    overflow: hidden;
-    width:100vw;
-    height:100vh;
-    max-height:100vh;
-    text-align:center;
-}
-.hero {
+.overlay {
+    color: red;
     position:absolute;
-    height:100%;
-    width:200%;
-    left:-50%;
-}
-video {
-    position:absolute;
-    top: -99999px;
-    bottom: -99999px;
-    left: -99999px;
-    right: -99999px;
-    margin: auto;
-    min-height:100%;
-    min-width:50%;
+    top:0;
+    left:0;
+    z-index:1;
 }

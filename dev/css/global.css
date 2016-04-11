@@ -1794,11 +1794,44 @@ button {
 .long-delay {
   animation-delay: 700ms !important; }
 
+.nav_bar {
+  background-color: transparent;
+  color: red;
+  z-index: 2; }
+
 .hero {
-  background-color: red; }
+  position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100vh;
+  text-align: center; }
+
+.vid {
+  position: absolute;
+  height: 100%;
+  width: 200%;
+  left: -50%; }
+
+video {
+  position: absolute;
+  top: -99999px;
+  bottom: -99999px;
+  left: -99999px;
+  right: -99999px;
+  margin: auto;
+  min-height: 100%;
+  min-width: 50%;
+  z-index: 0; }
+
+.brand_name {
+  font-family: "Cassannet Outline";
+  text-align: center;
+  font-size: 45px;
+  color: #2c1603; }
 
 .company_discription {
-  background-color: orange; }
+  background-color: #fffffc; }
 
 .brewing {
   background-color: yellow;
@@ -1815,20 +1848,54 @@ button {
   height: 75px; }
 
 .coffee__name {
+  font-family: "Cassannet Regular";
   float: left;
   margin-right: 10px; }
 
 .coffee__discript {
   font-size: 12px; }
 
-.menu {
-  background-color: pink; }
+.blc-menu {
+  background-color: pink;
+  text-align: center; }
 
 .community_board {
-  background-color: green; }
+  background-color: #fffffc; }
+
+.community_board__title {
+  float: left; }
+
+.article {
+  border: solid yellow 1px; }
+
+.article__image {
+  float: right;
+  padding: 10px; }
+
+.article__title {
+  padding: 0 5px;
+  font-size: 20px; }
+
+.byline__img {
+  display: block;
+  float: left;
+  padding: 0 9px; }
+
+.byline__writer {
+  padding: 0 5px;
+  font-size: 13px;
+  float: left; }
+
+.article__article {
+  padding: 5px;
+  font-size: 14px; }
 
 .footer {
-  background-color: blue; }
+  background-color: #2c1603;
+  border: solid black 1px; }
+
+.footer__address {
+  float: right; }
 
 .clearfix:after {
   content: " ";
@@ -1840,31 +1907,11 @@ ul {
   margin: 0px;
   list-style: none; }
 
-body {
-  margin: 0; }
-
-header {
-  position: relative;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-  max-height: 100vh;
-  text-align: center; }
-
-.hero {
+.overlay {
+  color: red;
   position: absolute;
-  height: 100%;
-  width: 200%;
-  left: -50%; }
-
-video {
-  position: absolute;
-  top: -99999px;
-  bottom: -99999px;
-  left: -99999px;
-  right: -99999px;
-  margin: auto;
-  min-height: 100%;
-  min-width: 50%; }
+  top: 0;
+  left: 0;
+  z-index: 1; }
 
 /*# sourceMappingURL=global.css.map */
