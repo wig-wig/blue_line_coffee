@@ -1895,11 +1895,46 @@ video {
   background-color: #fffffc;
   text-align: center;
   color: #03AFDD;
-  padding: 15px; }
+  padding: 10px; }
 
 @media only screen and (min-width: 40.063em) {
   .blc-menu {
-    padding-top: 40px; } }
+    padding-top: 63px; } }
+.menu_container {
+  margin: 0 5px 0 5px;
+  border: .5px solid black;
+  padding: 0 5px 5px 5px; }
+
+.menu_header {
+  font-size: 30px;
+  font-family: "Krona One", sans-serif;
+  text-align: center; }
+
+.section_title {
+  font-family: "Krona One", sans-serif;
+  text-align: center; }
+
+.coffee_module {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px;
+  margin: 2px 5px; }
+
+.coffee_module__cost {
+  float: right; }
+
+.coffee_module__middle {
+  float: right;
+  margin: 0 auto; }
+
+.coffe_module__middle__dots {
+  border-bottom: 1px dotted black;
+  width: 100px;
+  position: relative;
+  top: 15px; }
+
+.coffee_module__drink {
+  float: left; }
+
 .community_board {
   background-color: #fffffc;
   padding-left: 10px; }
