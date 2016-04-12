@@ -1,5 +1,6 @@
 .community_board {
   background-color: $porcelain;
+  padding-left: 10px;
 }
 
 .community_board__title {
@@ -8,6 +9,7 @@
 
 .community_board__archive {
   float: right;
+  padding-right: 10px;
 }
 
 .article {
@@ -17,6 +19,7 @@
 .article__image {
   float: right;
   padding: 10px;
+  max-height: 75%;
 }
 
 .article__title {
