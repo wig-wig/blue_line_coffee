@@ -1,12 +1,19 @@
 
 
 .brewing {
-  background-color: yellow;
-  margin: 5px;
+  background-color: $porcelain;
+  // border-right: 1px solid #2B2B2B;
+}
+.whats_brewing {
+  margin-bottom: 10px;
+  border-bottom: solid 1px;
+  border-color: #2B2B2B;
 }
 
 .coffee {
   margin-bottom: 10px;
+  border-bottom: solid 1px;
+  border-color: #2B2B2B;
 
 }
 
@@ -26,4 +33,11 @@
 
 .coffee__discript {
   font-size: 12px;
+  line-height: 2;
 }
+
+@media only screen and (min-width: 40.063em) { 
+  .whats_brewing {
+    padding-top: 40px;
+  }
+} 

@@ -1,13 +1,25 @@
-$head_font: 'Krona One', sans-serif;
-$body_font: 'Source Sans Pro', sans-serif;
+
+.blc-menu {
+  background-color: $porcelain;
+  text-align: center;
+  color: $blue;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 40.063em) { 
+  .blc-menu {
+  padding-top: 63px;
+  }
+}
 
 .menu_container{
   margin: 0 5px 0 5px;
-  border: 2px solid black;
+  border: .5px solid black;
 
   padding: 0 5px 5px 5px;
 }
 .menu_header{
+  font-size: 30px;
   font-family: $head_font;
   text-align: center; 
 }
@@ -56,3 +68,4 @@ $body_font: 'Source Sans Pro', sans-serif;
   //width: 25%;
 
 }
+
