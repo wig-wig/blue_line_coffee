@@ -1857,14 +1857,12 @@ video {
 
 .menu_container {
   margin: 0 5px 0 5px;
-  border-right: 2px solid black;
-  border-left: 2px solid black;
-  padding: 0 5px 0 5px; }
+  border: 2px solid black;
+  padding: 0 5px 5px 5px; }
 
 .menu_header {
   font-family: "Krona One", sans-serif;
-  text-align: center;
-  margin-top: 10px; }
+  text-align: center; }
 
 .section_title {
   font-family: "Krona One", sans-serif;
@@ -1872,7 +1870,8 @@ video {
 
 .coffee_module {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 14px; }
+  font-size: 14px;
+  margin: 2px 5px; }
 
 .coffee_module__cost {
   float: right; }

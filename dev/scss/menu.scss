@@ -3,15 +3,29 @@ $body_font: 'Source Sans Pro', sans-serif;
 
 .menu_container{
   margin: 0 5px 0 5px;
-  border-right: 2px solid black;
-  border-left: 2px solid black;
-  padding: 0 5px 0 5px;
+  border: 2px solid black;
+
+  padding: 0 5px 5px 5px;
 }
 .menu_header{
   font-family: $head_font;
   text-align: center; 
-  margin-top: 10px;
 }
+// .corner{
+//   //position: relative;
+// }
+// .corner_right{
+//   position: absolute;
+//   left: 15px;
+//   bottom: 10px;
+//   z-index: -1;
+// }
+// .corner_left{
+//   position: relative;
+//   right: 15px;
+//   bottom: 10px;
+//   z-index: -1;
+// }
 .section_title{
   font-family: $head_font;
   text-align: center;
@@ -19,6 +33,7 @@ $body_font: 'Source Sans Pro', sans-serif;
 .coffee_module{
   font-family: $body_font;
   font-size: 14px;
+  margin: 2px 5px;
 }
 .coffee_module__cost{
   float: right;
