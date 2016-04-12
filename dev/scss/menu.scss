@@ -1,4 +1,46 @@
-.blc-menu {
-  background-color: pink;
+$head_font: 'Krona One', sans-serif;
+$body_font: 'Source Sans Pro', sans-serif;
+
+.menu_container{
+  margin: 0 5px 0 5px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding: 0 5px 0 5px;
+}
+.menu_header{
+  font-family: $head_font;
+  text-align: center; 
+  margin-top: 10px;
+}
+.section_title{
+  font-family: $head_font;
   text-align: center;
+}
+.coffee_module{
+  font-family: $body_font;
+  font-size: 14px;
+}
+.coffee_module__cost{
+  float: right;
+  //width: 111px;
+}
+.coffee_module__middle{
+  float: right;
+  margin: 0 auto;
+}
+.coffe_module__middle__dots{
+  border-bottom: 1px dotted black;
+  width: 100px;
+ 
+  position: relative;
+  top: 15px;
+}
+.coffee_module__drink{
+  float: left;
+  //width: 111px;
+}
+.corner_right{
+  //float: right;
+  //width: 25%;
+
 }

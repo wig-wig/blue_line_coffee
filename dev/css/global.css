@@ -1855,9 +1855,40 @@ video {
 .coffee__discript {
   font-size: 12px; }
 
-.blc-menu {
-  background-color: pink;
+.menu_container {
+  margin: 0 5px 0 5px;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+  padding: 0 5px 0 5px; }
+
+.menu_header {
+  font-family: "Krona One", sans-serif;
+  text-align: center;
+  margin-top: 10px; }
+
+.section_title {
+  font-family: "Krona One", sans-serif;
   text-align: center; }
+
+.coffee_module {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 14px; }
+
+.coffee_module__cost {
+  float: right; }
+
+.coffee_module__middle {
+  float: right;
+  margin: 0 auto; }
+
+.coffe_module__middle__dots {
+  border-bottom: 1px dotted black;
+  width: 100px;
+  position: relative;
+  top: 15px; }
+
+.coffee_module__drink {
+  float: left; }
 
 .community_board {
   background-color: #fffffc; }
