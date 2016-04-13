@@ -2,6 +2,7 @@
 
 .brewing {
   background-color: $porcelain;
+  padding: none;
   // border-right: 1px solid #2B2B2B;
 }
 
@@ -45,7 +46,7 @@
   }
 }
 
-@media only screen and ($large-breakpoint) {  
+@media only screen and (min-width: 64.063em) {  
 
   .brewing {
   padding: 0px 45px;

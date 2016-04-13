@@ -9,14 +9,14 @@
 
 .video_container {
   position: relative;
-  overflow: hidden;
   width:100vw;
-  height:37vh;
+  height:50vh;
   max-height:100vh;
   // text-align:center;
 }
 
 .vid {
+  overflow: hidden;
   position: absolute;
   height:100%;
   width:200%;
@@ -43,16 +43,21 @@ video {
   display: block;
   position: absolute;
   z-index: 2;
-  max-width: 30%;
+  max-width: 100px;
   left: 2%;
   top: 2%;
 }
 
-
+@media only screen and (min-width: 40.063em) { 
+  .logo {
+    max-width: 150px;
+  }
+}
 
 @media only screen and (min-width: 64.063em) { 
     .logo {
-      max-width: 20%;
+      max-width: 245px;
+      top: 4%;
     }
 }
 

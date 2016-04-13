@@ -1807,12 +1807,12 @@ button {
 
 .video_container {
   position: relative;
-  overflow: hidden;
   width: 100vw;
-  height: 37vh;
+  height: 50vh;
   max-height: 100vh; }
 
 .vid {
+  overflow: hidden;
   position: absolute;
   height: 100%;
   width: 200%;
@@ -1835,13 +1835,17 @@ video {
   display: block;
   position: absolute;
   z-index: 2;
-  max-width: 30%;
+  max-width: 100px;
   left: 2%;
   top: 2%; }
 
+@media only screen and (min-width: 40.063em) {
+  .logo {
+    max-width: 150px; } }
 @media only screen and (min-width: 64.063em) {
   .logo {
-    max-width: 20%; } }
+    max-width: 245px;
+    top: 4%; } }
 .brand_name_container {
   max-width: 100%; }
 
@@ -1850,15 +1854,16 @@ video {
   display: block;
   max-width: 95%;
   left: 10px;
-  top: 162px;
-  z-index: 2; }
+  z-index: 2;
+  bottom: -20px; }
 
 @media only screen and (min-width: 40.063em) {
   .brand_name {
-    top: 60%; } }
+    bottom: -22px; } }
 @media only screen and (min-width: 64.063em) {
   .brand_name {
-    top: 14%; } }
+    left: 20px;
+    bottom: -25px; } }
 .company_discription {
   background-color: #fffffc;
   border-top: solid 17px;
@@ -1870,7 +1875,8 @@ video {
   .company_discription {
     padding: 40px; } }
 .brewing {
-  background-color: #fffffc; }
+  background-color: #fffffc;
+  padding: none; }
 
 .whats_brewing {
   margin-bottom: 10px;
@@ -1904,7 +1910,7 @@ video {
 @media only screen and (min-width: 40.063em) {
   .whats_brewing {
     padding-top: 40px; } }
-@media only screen and (em-calc(1440)) {
+@media only screen and (min-width: 64.063em) {
   .brewing {
     padding: 0px 45px; } }
 .blc-menu {
