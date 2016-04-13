@@ -1807,8 +1807,7 @@ button {
   overflow: hidden;
   width: 100vw;
   height: 55vh;
-  max-height: 100vh;
-  text-align: center; }
+  max-height: 100vh; }
 
 .vid {
   position: absolute;
@@ -1839,16 +1838,22 @@ video {
   left: 7%;
   z-index: 2; }
 
+@media only screen and (min-width: 64.063em) {
+  .logo {
+    max-width: 22%; } }
 .brand_name {
-  font-family: "Cassannet Bold";
-  text-align: center;
-  font-size: 43px;
   color: #fffffc;
   position: absolute;
-  top: 45%;
-  left: 3%;
+  top: 37%;
+  left: -1%;
   z-index: 2; }
 
+@media only screen and (min-width: 40.063em) {
+  .brand_name {
+    top: 22%; } }
+@media only screen and (min-width: 64.063em) {
+  .brand_name {
+    top: 14%; } }
 .company_discription {
   background-color: #fffffc;
   border-top: solid 17px;
@@ -1866,7 +1871,7 @@ video {
   margin-bottom: 10px;
   border-bottom: solid 1px;
   border-color: #E5E5E5;
-  font-family: "Cassannet Outline";
+  font-family: "HKGrotesk-Regular";
   font-size: 25px; }
 
 .coffee {
@@ -1882,17 +1887,21 @@ video {
   height: 75px; }
 
 .coffee__name {
-  font-family: "Krona One", sans-serif;
+  font-family: "HKGrotesk-Bold";
   float: left;
   margin-right: 10px; }
 
 .coffee__discript {
+  font-family: "HKGrotesk-Regular";
   font-size: 12px;
   line-height: 2; }
 
 @media only screen and (min-width: 40.063em) {
   .whats_brewing {
     padding-top: 40px; } }
+@media only screen and (em-calc(1440)) {
+  .brewing {
+    padding: 0px 45px; } }
 .blc-menu {
   background-color: #fffffc;
   text-align: center;
@@ -1902,6 +1911,9 @@ video {
 @media only screen and (min-width: 40.063em) {
   .blc-menu {
     padding-top: 63px; } }
+@media only screen and (min-width: 64.063em) {
+  .blc-menu {
+    padding-top: 75px; } }
 .menu_container {
   margin: 0 5px 0 5px;
   border: 0.5px solid #E5E5E5;
@@ -1948,9 +1960,6 @@ video {
   float: right;
   padding-right: 10px; }
 
-.article {
-  border: solid yellow 1px; }
-
 .article__image {
   float: right;
   padding: 10px;
@@ -1967,10 +1976,9 @@ video {
 
 .byline__writer {
   padding: 0 5px;
-  font-size: 13px;
-  float: left; }
+  font-size: 13px; }
 
-.article__article {
+.article__body {
   padding: 5px;
   font-size: 14px; }
 
@@ -1997,5 +2005,8 @@ ul {
   top: 0;
   left: 0;
   z-index: 1; }
+
+.main_container {
+  background-color: #F7F7F7; }
 
 /*# sourceMappingURL=global.css.map */

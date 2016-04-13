@@ -9,7 +9,7 @@
   margin-bottom: 10px;
   border-bottom: solid 1px;
   border-color: $lightgrey;
-  font-family: "Cassannet Outline";
+  font-family: "HKGrotesk-Regular";
   font-size: 25px;
 }
 
@@ -28,12 +28,13 @@
 }
 
 .coffee__name {
-  font-family: $head_font;
+  font-family: "HKGrotesk-Bold";
   float: left;
   margin-right: 10px;
 }
 
 .coffee__discript {
+  font-family: "HKGrotesk-Regular";
   font-size: 12px;
   line-height: 2;
 }
@@ -42,4 +43,13 @@
   .whats_brewing {
     padding-top: 40px;
   }
-} 
+}
+
+@media only screen and ($large-breakpoint) {  
+
+  .brewing {
+  padding: 0px 45px;
+  }
+}
+
+

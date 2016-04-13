@@ -9,7 +9,7 @@
     width:100vw;
     height:55vh;
     max-height:100vh;
-    text-align:center;
+    // text-align:center;
 }
 
 .vid {
@@ -30,6 +30,8 @@ video {
     min-width:50%;
 }
 
+
+
 .logo {
     position: absolute;
     z-index: 2;
@@ -44,3 +46,11 @@ video {
     left: 7%;
     z-index: 2;
 }
+
+@media only screen and (min-width: 64.063em) { 
+    .logo {
+        max-width: 22%;
+    }
+}
+
+

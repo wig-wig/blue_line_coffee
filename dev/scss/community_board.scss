@@ -12,10 +12,6 @@
   padding-right: 10px;
 }
 
-.article {
-  border: solid yellow 1px;
-}
-
 .article__image {
   float: right;
   padding: 10px;
@@ -36,11 +32,17 @@
 .byline__writer {
   padding: 0 5px;
   font-size: 13px;
-  float: left;
 }
 
-.article__article {
+.article__body {
   padding: 5px;
   font-size: 14px;
 }
+
+@media only screen and (min-width: 40.063em) { 
+  
+
+  
+  
+} 
 
