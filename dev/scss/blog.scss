@@ -1,0 +1,19 @@
+.blog_header{
+  border-bottom: 17px solid $blue;
+  padding-bottom: 5px;
+ //background-color: black;
+  //overflow: hidden;
+}
+.blog_header__text{
+  font-family: "Cassannet Bold";
+  font-size: 2em;
+  width: 75%;
+  float: right;
+  color: black;
+  text-align: center;
+  margin-top: 25px;
+}
+.blog_header__logo{
+  float: left;
+  width: 25%;
+}

@@ -1979,6 +1979,23 @@ video {
   text-align: center;
   color: #fffffc; }
 
+.blog_header {
+  border-bottom: 17px solid #03AFDD;
+  padding-bottom: 5px; }
+
+.blog_header__text {
+  font-family: "Cassannet Bold";
+  font-size: 2em;
+  width: 75%;
+  float: right;
+  color: black;
+  text-align: center;
+  margin-top: 25px; }
+
+.blog_header__logo {
+  float: left;
+  width: 25%; }
+
 .clearfix:after {
   content: " ";
   clear: both;
