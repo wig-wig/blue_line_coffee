@@ -3,53 +3,56 @@
 //     margin:0;
 // }
 
-.hero {
-    position: relative;
-    overflow: hidden;
-    width:100vw;
-    height:55vh;
-    max-height:100vh;
-    // text-align:center;
+.brand_container {
+  border: solid red 1px;
+}
+
+.video_container {
+  position: relative;
+  overflow: hidden;
+  width:100vw;
+  height:37vh;
+  max-height:100vh;
+  // text-align:center;
 }
 
 .vid {
-    position:absolute;
-    height:75%;
-    width:200%;
-    left:-50%; 
+  position: absolute;
+  height:100%;
+  width:200%;
+  left:-50%; 
 }
 
 video {
-    position:absolute;
-    top: -99999px;
-    bottom: -99999px;
-    left: -99999px;
-    right: -99999px;
-    margin: auto;
-    min-height:100%;
-    min-width:50%;
+  position:absolute;
+  top: -99999px;
+  bottom: -99999px;
+  left: -99999px;
+  right: -99999px;
+  margin: auto;
+  min-height:100%;
+  min-width:50%;
 }
 
 
+.logo_container {
+  max-width: 25%;
+}
 
 .logo {
-    position: absolute;
-    z-index: 2;
-    max-width: 25%;
-    left: 2%;
-    top: 2%;
+  display: block;
+  position: absolute;
+  z-index: 2;
+  max-width: 30%;
+  left: 2%;
+  top: 2%;
 }
 
-.brand_name {
-    position: absolute;
-    top: 51%;
-    left: 7%;
-    z-index: 2;
-}
+
 
 @media only screen and (min-width: 64.063em) { 
     .logo {
-        max-width: 22%;
+      max-width: 20%;
     }
 }
 

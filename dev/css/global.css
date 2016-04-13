@@ -1802,16 +1802,19 @@ button {
   color: #fffffc;
   z-index: 2; }
 
-.hero {
+.brand_container {
+  border: solid red 1px; }
+
+.video_container {
   position: relative;
   overflow: hidden;
   width: 100vw;
-  height: 55vh;
+  height: 37vh;
   max-height: 100vh; }
 
 .vid {
   position: absolute;
-  height: 75%;
+  height: 100%;
   width: 200%;
   left: -50%; }
 
@@ -1825,32 +1828,34 @@ video {
   min-height: 100%;
   min-width: 50%; }
 
+.logo_container {
+  max-width: 25%; }
+
 .logo {
+  display: block;
   position: absolute;
   z-index: 2;
-  max-width: 25%;
+  max-width: 30%;
   left: 2%;
   top: 2%; }
 
-.brand_name {
-  position: absolute;
-  top: 51%;
-  left: 7%;
-  z-index: 2; }
-
 @media only screen and (min-width: 64.063em) {
   .logo {
-    max-width: 22%; } }
+    max-width: 20%; } }
+.brand_name_container {
+  max-width: 100%; }
+
 .brand_name {
-  color: #fffffc;
   position: absolute;
-  top: 37%;
-  left: -1%;
+  display: block;
+  max-width: 95%;
+  left: 10px;
+  top: 162px;
   z-index: 2; }
 
 @media only screen and (min-width: 40.063em) {
   .brand_name {
-    top: 22%; } }
+    top: 60%; } }
 @media only screen and (min-width: 64.063em) {
   .brand_name {
     top: 14%; } }
@@ -1993,18 +1998,6 @@ video {
   content: " ";
   clear: both;
   display: block; }
-
-ul {
-  padding: 0px;
-  margin: 0px;
-  list-style: none; }
-
-.overlay {
-  color: red;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1; }
 
 .main_container {
   background-color: #F7F7F7; }
