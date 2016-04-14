@@ -1865,12 +1865,14 @@ video {
 .whats_brewing {
   margin-bottom: 10px;
   border-bottom: solid 1px;
-  border-color: #2B2B2B; }
+  border-color: #E5E5E5;
+  font-family: "Cassannet Outline";
+  font-size: 25px; }
 
 .coffee {
   margin-bottom: 10px;
   border-bottom: solid 1px;
-  border-color: #2B2B2B; }
+  border-color: #E5E5E5; }
 
 .coffee__image {
   float: left;
@@ -1880,7 +1882,7 @@ video {
   height: 75px; }
 
 .coffee__name {
-  font-family: "Cassannet Regular";
+  font-family: "Krona One", sans-serif;
   float: left;
   margin-right: 10px; }
 
@@ -1902,12 +1904,16 @@ video {
     padding-top: 63px; } }
 .menu_container {
   margin: 0 5px 0 5px;
+<<<<<<< HEAD
   border: .5px solid black;
   position: relative;
+=======
+  border: 0.5px solid #E5E5E5;
+>>>>>>> master
   padding: 0 5px 5px 5px; }
 
 .menu_header {
-  font-size: 30px;
+  font-size: 24px;
   font-family: "Krona One", sans-serif;
   text-align: center;
   position: relative; }

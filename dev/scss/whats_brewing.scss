@@ -4,17 +4,19 @@
   background-color: $porcelain;
   // border-right: 1px solid #2B2B2B;
 }
+
 .whats_brewing {
   margin-bottom: 10px;
   border-bottom: solid 1px;
-  border-color: #2B2B2B;
+  border-color: $lightgrey;
+  font-family: "Cassannet Outline";
+  font-size: 25px;
 }
 
 .coffee {
   margin-bottom: 10px;
   border-bottom: solid 1px;
-  border-color: #2B2B2B;
-
+  border-color: $lightgrey;
 }
 
 .coffee__image {
@@ -26,7 +28,7 @@
 }
 
 .coffee__name {
-  font-family: "Cassannet Regular";
+  font-family: $head_font;
   float: left;
   margin-right: 10px;
 }
