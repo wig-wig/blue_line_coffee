@@ -2,12 +2,11 @@
 
 .brewing {
   background-color: $porcelain;
-  padding: none;
-  // border-right: 1px solid #2B2B2B;
+  padding: 0px 15px;
 }
 
 .whats_brewing {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   border-bottom: solid 1px;
   border-color: $lightgrey;
   font-family: "HKGrotesk-Regular";
@@ -15,7 +14,7 @@
 }
 
 .coffee {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   border-bottom: solid 1px;
   border-color: $lightgrey;
 }
@@ -49,7 +48,7 @@
 @media only screen and (min-width: 64.063em) {  
 
   .brewing {
-  padding: 0px 45px;
+  padding: 0px 180px 0px 65px;
   }
 }
 

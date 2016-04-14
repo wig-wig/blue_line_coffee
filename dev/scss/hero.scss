@@ -44,13 +44,14 @@ video {
   position: absolute;
   z-index: 2;
   max-width: 100px;
-  left: 2%;
-  top: 2%;
+  left: 4%;
+  top: 4%;
 }
 
 @media only screen and (min-width: 40.063em) { 
   .logo {
     max-width: 150px;
+    top: 4%;
   }
 }
 
@@ -58,6 +59,7 @@ video {
     .logo {
       max-width: 245px;
       top: 4%;
+      left: 3%;
     }
 }
 

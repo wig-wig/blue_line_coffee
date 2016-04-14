@@ -1,15 +1,24 @@
 .community_board {
   background-color: $porcelain;
-  padding-left: 10px;
 }
 
 .community_board__title {
-  float: left;
+  text-align: center;
+  font-size: 40px;
+  color: $blue;
 }
 
-.community_board__archive {
+// .community_board__archive {
+//   float: right;
+//   padding-right: 10px;
+// }
+
+.article_container {
+  border-top: 25px solid $blue;
+}
+
+.article {
   float: right;
-  padding-right: 10px;
 }
 
 .article__image {

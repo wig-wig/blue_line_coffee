@@ -1800,7 +1800,8 @@ button {
   top: 2%;
   background-color: transparent;
   color: #fffffc;
-  z-index: 2; }
+  z-index: 2;
+  text-decoration: none; }
 
 .brand_container {
   border: solid red 1px; }
@@ -1836,16 +1837,18 @@ video {
   position: absolute;
   z-index: 2;
   max-width: 100px;
-  left: 2%;
-  top: 2%; }
+  left: 4%;
+  top: 4%; }
 
 @media only screen and (min-width: 40.063em) {
   .logo {
-    max-width: 150px; } }
+    max-width: 150px;
+    top: 4%; } }
 @media only screen and (min-width: 64.063em) {
   .logo {
     max-width: 245px;
-    top: 4%; } }
+    top: 4%;
+    left: 3%; } }
 .brand_name_container {
   max-width: 100%; }
 
@@ -1868,25 +1871,28 @@ video {
   background-color: #fffffc;
   border-top: solid 17px;
   border-color: #03AFDD;
-  padding: 10px;
+  padding: 63px;
   color: #2c1603; }
 
 @media only screen and (min-width: 40.063em) {
   .company_discription {
-    padding: 40px; } }
+    padding: 130px 100px 100px 100px; } }
+@media only screen and (min-width: 64.063em) {
+  .company_discription {
+    padding: 180px 100px 100px 100px; } }
 .brewing {
   background-color: #fffffc;
-  padding: none; }
+  padding: 0px 15px; }
 
 .whats_brewing {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   border-bottom: solid 1px;
   border-color: #E5E5E5;
   font-family: "HKGrotesk-Regular";
   font-size: 25px; }
 
 .coffee {
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   border-bottom: solid 1px;
   border-color: #E5E5E5; }
 
@@ -1912,7 +1918,7 @@ video {
     padding-top: 40px; } }
 @media only screen and (min-width: 64.063em) {
   .brewing {
-    padding: 0px 45px; } }
+    padding: 0px 180px 0px 65px; } }
 .blc-menu {
   background-color: #fffffc;
   text-align: center;
@@ -1924,7 +1930,8 @@ video {
     padding-top: 63px; } }
 @media only screen and (min-width: 64.063em) {
   .blc-menu {
-    padding-top: 75px; } }
+    padding-top: 75px;
+    padding-right: 95px; } }
 .menu_container {
   margin: 0 5px 0 5px;
   border: 0.5px solid #E5E5E5;
@@ -1961,15 +1968,18 @@ video {
   float: left; }
 
 .community_board {
-  background-color: #fffffc;
-  padding-left: 10px; }
+  background-color: #fffffc; }
 
 .community_board__title {
-  float: left; }
+  text-align: center;
+  font-size: 40px;
+  color: #03AFDD; }
 
-.community_board__archive {
-  float: right;
-  padding-right: 10px; }
+.article_container {
+  border-top: 25px solid #03AFDD; }
+
+.article {
+  float: right; }
 
 .article__image {
   float: right;
