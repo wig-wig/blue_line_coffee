@@ -1934,13 +1934,29 @@ video {
     padding-right: 95px; } }
 .menu_container {
   margin: 0 5px 0 5px;
+<<<<<<< HEAD
+  border: .5px solid black;
+  position: relative;
+=======
   border: 0.5px solid #E5E5E5;
+>>>>>>> master
   padding: 0 5px 5px 5px; }
 
 .menu_header {
   font-size: 24px;
   font-family: "Krona One", sans-serif;
-  text-align: center; }
+  text-align: center;
+  position: relative; }
+
+.corner_right {
+  position: absolute;
+  right: -10px;
+  top: -10px; }
+
+.corner_left {
+  position: absolute;
+  left: -10px;
+  top: -10px; }
 
 .section_title {
   font-family: "Krona One", sans-serif;
@@ -2009,6 +2025,49 @@ video {
 .footer__address {
   text-align: center;
   color: #fffffc; }
+
+ul {
+  list-style-type: none; }
+
+.blog_header {
+  border-bottom: 17px solid #03AFDD;
+  padding-bottom: 5px; }
+
+.blog_header__text {
+  font-family: "Cassannet Bold";
+  font-size: 2em;
+  width: 75%;
+  float: right;
+  color: black;
+  text-align: center;
+  margin-top: 25px; }
+
+.blog_header__logo {
+  float: left;
+  width: 25%; }
+
+.featured_post__title {
+  font-family: "Krona One", sans-serif;
+  text-align: center; }
+
+.featured_post__text {
+  font-family: "Source Sans Pro", sans-serif;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px; }
+
+.all_posts {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  color: #03AFDD; }
+
+.all_posts__list__title:hover {
+  color: black;
+  text-decoration: underline; }
+
+.featured_post__img {
+  width: 100%;
+  object-fit: cover;
+  max-height: 250px; }
 
 .clearfix:after {
   content: " ";
