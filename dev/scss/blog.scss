@@ -2,26 +2,27 @@ ul{
   list-style-type: none;
 }
 .blog_header{
-  border-bottom: 17px solid $blue;
+  
   padding-bottom: 5px;
+  margin-bottom: 10px;
  //background-color: black;
   //overflow: hidden;
 }
 .blog_header__text{
-  font-family: "Cassannet Bold";
+  font-family: "BinnerD";
   font-size: 2em;
   width: 75%;
-  float: right;
   color: black;
   text-align: center;
-  margin-top: 25px;
+  margin: 0 auto;
+  border-bottom: 2px solid $blue;
 }
 .blog_header__logo{
-  float: left;
-  width: 25%;
+  width: 15%;
+  margin: 5px;
 }
 .featured_post__title{
-  font-family: $head_font;
+  font-family: "BinnerD";
   text-align: center;
 }
 .featured_post__text{

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "BinnerD";
+  src: url("http://db.onlinewebfonts.com/t/678fdb7097fa2a8eac8dc3ab58aa8906.eot");
+  src: url("http://db.onlinewebfonts.com/t/678fdb7097fa2a8eac8dc3ab58aa8906.eot?#iefix") format("embedded-opentype"), url("http://db.onlinewebfonts.com/t/678fdb7097fa2a8eac8dc3ab58aa8906.woff2") format("woff2"), url("http://db.onlinewebfonts.com/t/678fdb7097fa2a8eac8dc3ab58aa8906.woff") format("woff"), url("http://db.onlinewebfonts.com/t/678fdb7097fa2a8eac8dc3ab58aa8906.ttf") format("truetype"), url("http://db.onlinewebfonts.com/t/678fdb7097fa2a8eac8dc3ab58aa8906.svg#BinnerD") format("svg"); }
 /**
  * Foundation for Sites by ZURB
  * Version 6.2.0
@@ -2031,24 +2035,24 @@ ul {
   list-style-type: none; }
 
 .blog_header {
-  border-bottom: 17px solid #03AFDD;
-  padding-bottom: 5px; }
+  padding-bottom: 5px;
+  margin-bottom: 10px; }
 
 .blog_header__text {
-  font-family: "Cassannet Bold";
+  font-family: "BinnerD";
   font-size: 2em;
   width: 75%;
-  float: right;
   color: black;
   text-align: center;
-  margin-top: 25px; }
+  margin: 0 auto;
+  border-bottom: 2px solid #03AFDD; }
 
 .blog_header__logo {
-  float: left;
-  width: 25%; }
+  width: 15%;
+  margin: 5px; }
 
 .featured_post__title {
-  font-family: "Krona One", sans-serif;
+  font-family: "BinnerD";
   text-align: center; }
 
 .featured_post__text {
