@@ -1,3 +1,11 @@
 $head_font: 'Krona One', sans-serif;
 $body_font: 'Source Sans Pro', sans-serif;
 
+@font-face {font-family: "BinnerD";
+    src: url("http://db.onlinewebfonts.com/t/678fdb7097fa2a8eac8dc3ab58aa8906.eot");
+    src: url("http://db.onlinewebfonts.com/t/678fdb7097fa2a8eac8dc3ab58aa8906.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/678fdb7097fa2a8eac8dc3ab58aa8906.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/678fdb7097fa2a8eac8dc3ab58aa8906.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/678fdb7097fa2a8eac8dc3ab58aa8906.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/678fdb7097fa2a8eac8dc3ab58aa8906.svg#BinnerD") format("svg");
+}
