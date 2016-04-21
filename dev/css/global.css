@@ -1934,12 +1934,8 @@ video {
     padding-right: 95px; } }
 .menu_container {
   margin: 0 5px 0 5px;
-<<<<<<< HEAD
-  border: .5px solid black;
-  position: relative;
-=======
   border: 0.5px solid #E5E5E5;
->>>>>>> master
+  position: relative;
   padding: 0 5px 5px 5px; }
 
 .menu_header {
