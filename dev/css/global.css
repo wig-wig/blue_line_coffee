@@ -1989,12 +1989,15 @@ video {
   float: left; }
 
 .community_board {
-  background-color: #fffffc; }
+  background-color: #fffffc;
+  border-top: 25px solid #03AFDD;
+  color: #62696B; }
 
 .community_board__title {
   text-align: center;
   font-size: 40px;
-  color: black; }
+  color: black;
+  font-family: "HKGrotesk-Regular"; }
 
 .article_container {
   border-top: 25px solid #03AFDD; }
@@ -2024,8 +2027,12 @@ video {
   padding: 5px;
   font-size: 14px; }
 
+@media only screen and (min-width: 64.063em) {
+  .community_board__title {
+    font-size: 102px; } }
 .footer {
-  background-color: #03AFDD; }
+  background-color: #62696B;
+  height: 25px; }
 
 .footer__address {
   text-align: center;

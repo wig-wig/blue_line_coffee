@@ -1,11 +1,14 @@
 .community_board {
   background-color: $porcelain;
+  border-top: 25px solid $blue;
+  color: $darkgrey;
 }
 
 .community_board__title {
   text-align: center;
   font-size: 40px;
   color: black;
+  font-family: "HKGrotesk-Regular";
 }
 
 // .community_board__archive {
@@ -51,4 +54,15 @@
 @media only screen and (min-width: 40.063em) { 
   
 } 
+
+@media only screen and (min-width: 64.063em) {  
+  
+  .community_board__title {
+  font-size: 102px;
+  }
+}
+
+
+
+
 
